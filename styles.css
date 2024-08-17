@@ -1,0 +1,9 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+}

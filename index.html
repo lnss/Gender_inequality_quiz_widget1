@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gender Inequality Quiz</title>
+    <style>
+        .option {
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .option:hover {
+            background-color: #f0f0f0;
+        }
+        .correct {
+            background-color: #b4e8b4;
+        }
+        .incorrect {
+            background-color: #f8b4b4;
+        }
+    </style>
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Gender Inequality Quiz</h1>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="next-btn">Next</button>
+    </div>
+    <div id="result-container">
+        <h2>Quiz Results</h2>
+        <p id="score"></p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
